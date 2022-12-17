@@ -1,0 +1,75 @@
+# vi:ts=2
+
+path:	"/pub/scratch/bcagri/datagen/";
+bucksize:	1048576 ;
+
+partitioner:
+{
+	build:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	1;
+	};
+
+	probe:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	2;
+	};
+
+	hash:
+	{
+		fn:				"modulo";
+		range:		[1,16777216];
+		buckets:	8192 ;
+	};
+};
+
+build:
+{
+	file: 	"R_16M_PK.tbl";
+	schema: ("long", "long");
+	jattr:	1;
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: 16777216; #128000000;
+	alphabet-size: 16777216; #128000000;
+	zipf-param: 0.00;
+	seed: 12345;
+};
+
+probe:
+{
+	file:	"256M_probe.tbl"; #	"S_256M_FK_M=16.tbl";
+	schema:	("long", "long");
+	jattr:	1;
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: 268435456; #128000000;
+	alphabet-size: 16777216; #128000000;
+	zipf-param: 0.75;
+	seed: 54321;
+};
+
+output:	"test.tbl";
+
+hash:
+{
+	fn:				"modulo";
+	range:		[1,16777216]; #64000000];
+	buckets:	8388608; #32000000;
+};
+
+algorithm:
+{
+	copydata:				"yes";
+	partitionbuild:	"no";
+	buildpagesize:  32;
+	partitionprobe:	"no";
+};
+
+threads:		8;

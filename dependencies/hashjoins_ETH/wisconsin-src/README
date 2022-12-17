@@ -1,0 +1,146 @@
+==============
+ CHANGE LOG 
+==============
+
+[ Here we briefly describe modifications to the original code provided by Blanas
+ et al. After this section, the original documentation follows. ]
+
+1. Affinitizer::affinitize(int threadid) at line 36 of affinitizer.cpp is 
+modified so that it uses socket-aware binding of logical to physical cpus.
+It achieves this by using get_cpu_id() method which internally search for 
+"cpu-mapping.txt" to find the mappings such that threads are used from the
+same socket first. If "cpu-mapping.txt" does not exist it simply returns 
+mapping in round-robin among all available threads in the system (which is
+not socket-aware).
+
+2. To be able to use the same data generation tool and to generate data sets
+on the fly instead of reading from an already generated disk resident file, 
+we have modified the table.cpp file and added Table::LoadErrorT WriteTable::
+generate(int relationSize, int alphSize, double zipfParam, int seed) method 
+at line 206. Basically, relationSize denotes the number of tuples to be 
+generated in a relation, alphSize denotes cardinality of the relation. If 
+table to be generated is skewed, then this is specified by the zipfParam. 
+Finally, seed specifies the random number generation seed (We used same seed 
+for experiments to be consistent). 
+
+We also modified main.cpp at line 245 to enable loading of data sets by 
+generating using our data generation tool. In addition to the existing, data
+loading scheme from generated files, it is now possible to generate data 
+on-the-fly with our tool using the following parameters in the configuration 
+file of the join:
+
+build:
+{
+	file: 	"R_16M_PK.tbl";
+	schema: ("long", "long");
+	jattr:	1; # Note: with generation join attribute is always first column
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: 16777216;
+	alphabet-size: 16777216;
+	zipf-param: 0.00;
+	seed: 12345;
+};
+
+probe:
+{
+	file:	"256M_probe.tbl";
+	schema:	("long", "long");
+	jattr:	1;
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: 268435456;
+	alphabet-size: 268435456;
+	zipf-param: 0.00;
+	seed: 54321;
+};
+
+3. We commented out assertions at main.cpp:210 to enable experiments with 
+32-bit keys/values. In order to use our data generation tool, when using 64-bit
+keys -DKEY_8B must be appended to the CXXFLAGS in Makefile.
+
+4. We integrated Intel Performance Counters Monitor tool for fine-grained 
+profiling of the code. In order to use this facility, PERF_COUNTERS macro must 
+be defined. To do this just set USE_PERF_COUNTERS to 1 in the Makefile. 
+Meanwhile, profiling code with Intel PCM is added to relevant places in 
+main.cpp and guarded by PERF_COUNTERS macro. If enabled, outputs of profiling
+are printed to the standard output. Note that when using profiling, binary must
+run with root priveleges on a supported machine. 
+
+For performance monitoring a config file can be provided on the command line as
+second argument which specifies which hardware counters to monitor. For detailed
+list of hardware counters consult to "Intel 64 and IA-32 Architectures Software
+Developer’s Manual" Appendix A. For an example configuration file used
+in the experiments, see `pcm.cfg' file. Lastly, an output file name as
+fourth argument on commandline can be specified to print out profiling results,
+otherwise it defaults to stdout.
+
+
+==============
+ INTRODUCTION 
+==============
+
+This is the code used to study the performance of various main-memory hash join
+algorithms for the following SIGMOD 2011 paper:
+
+Spyros Blanas, Yinan Li, Jignesh M. Patel: Design and evaluation of main
+memory hash join algorithms for multi-core CPUs. In SIGMOD Conference, 
+p. 37-48, 2011.
+
+
+Feel free to experiment with the code, and please share any finidings and
+improvements you've made with the community.
+
+
+=================
+ GETTING STARTED
+=================
+
+1. Fix the thread affinitization for your particular machine/OS, by editing
+affinitizer.cpp, lines 39-44. The program will throw an exception by
+default if it is unset, because this is required for consistent readings
+of the tick counter (via rdtsc).
+ 
+
+2. Generate a uniform dataset: 
+
+$ cd datagen/
+$ ./generate.sh
+$ cd ..
+
+After a few minutes, the datagen/ directory will contain two files: 
+(a) the build side, "016M_build.tbl", a 256+ MB file with 16M tuples
+(b) the probe side, "256M_probe.tbl", a 4+ GB file with 256M tuples
+
+
+3. Compile:
+
+$ make
+
+
+4. Make sure libconfig++.so is in your path by doing:
+
+$ export LD_LIBRARY_PATH=$PWD/dist/lib/:$LD_LIBRARY_PATH
+
+
+5. Run with a sample configuration file. Let's pick the non-partitioning
+algorithm:
+
+$ ./multijoin conf/000001_no.conf
+
+The data that was generated in step 2 will first be loaded in memory (takes a
+while depending on your I/O speed), then the algorithm will run (takes
+seconds), and will output the something like this:
+
+RUNTIME TOTAL, BUILD+PART, PART (cycles): 
+16160005234 326706098   129240
+
+The reported results are cumulative across phases, so you should not add the
+three numbers together. In the example above, this means that the operation was
+completed in 16,160,005,234 cycles, of which 326,706,098 cycles was building
+the hash table and partitioning the inputs, and 129,240 cycles was partitioning
+alone (not surprising, since we don't do any partitioning for this algorithm).
+
+The conf/gen/ subdirectory contains a .conf file generator to play with.

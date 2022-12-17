@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/ReadMe.txt
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/AssemblyInfo.cpp
+END
+PCMInstaller.resx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMInstaller.resx
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/resource.h
+END
+PCMInstaller.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMInstaller.cpp
+END
+PCMService.resX
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMService.resX
+END
+PCMService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMService.cpp
+END
+PCMService.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMService.vcproj
+END
+PCMInstaller.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMInstaller.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/app.rc
+END
+PCM Service.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCM%20Service.exe.config
+END
+PCMService.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/PCMService.h
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCMService/app.ico
+END

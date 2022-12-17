@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++
+END
+stubcpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/stubcpp.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/Makefile.in
+END
+sample1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/sample1.cpp
+END
+sample2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/sample2.cpp
+END
+sample3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/sample3.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/c++/Makefile.am
+END

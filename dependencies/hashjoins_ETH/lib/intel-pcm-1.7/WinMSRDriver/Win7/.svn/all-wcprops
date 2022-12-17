@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/makefile
+END
+sources
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/sources
+END
+msr.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/msr.h
+END
+msrmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/msrmain.c
+END
+mymake.bat
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/mymake.bat
+END
+msrstruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WinMSRDriver/Win7/msrstruct.h
+END

@@ -1,0 +1,66 @@
+# vi:ts=2
+
+path:	"datagen/";
+bucksize:	1048576 ;
+
+partitioner:
+{
+	build:
+	{
+		algorithm:	"no";
+		pagesize:		131072;
+		attribute:	1;
+	};
+
+	probe:
+	{
+		algorithm:	"radix";
+		pagesize:		131072;
+		attribute:	2;
+		passes:			1;
+	};
+
+	hash:
+	{
+		fn:				"modulo";
+		range:		[1,16777216];
+		buckets:	2048;
+		skipbits:	12;
+	};
+};
+
+build:
+{
+	file: 	"016M_build.tbl";
+	schema: ("long", "long");
+	jattr:	1;
+	select:	(2);
+};
+
+probe:
+{
+	file:		"256M_probe.tbl";
+	schema:	("long", "long");
+	jattr:	2;
+	select:	(1);
+};
+
+output:	"test.tbl";
+
+hash:
+{
+	fn:				"modulo";
+	range:		[1,16777216];
+	buckets:	8388608;
+};
+
+algorithm:
+{
+	copydata:				"yes";
+	partitionbuild:	"no";
+	buildpagesize:  32;
+	partitionprobe:	"yes";
+	steal:					"yes";
+};
+
+threads:		12;

@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2
+END
+private.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/private.h
+END
+libconfig.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.pc.in
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/TODO
+END
+libconfigcpp.c++
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfigcpp.c++
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/INSTALL
+END
+libconfig.h++
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.h++
+END
+libconfig.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.c
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/aclocal.m4
+END
+test.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/test.cfg
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/install-sh
+END
+ylwrap
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/ylwrap
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/mkinstalldirs
+END
+libconfig++_stub.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig++_stub.vcproj
+END
+libconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.h
+END
+libconfig++.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig++.vcproj
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/ChangeLog
+END
+libconfig.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.spec.in
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/config.guess
+END
+libconfig_stub.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig_stub.vcproj
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/config.sub
+END
+libconfig.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.vcproj
+END
+ac_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/ac_config.h.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/configure.ac
+END
+grammar.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/grammar.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/missing
+END
+scanner.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/scanner.c
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/NEWS
+END
+grammar.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/grammar.h
+END
+COPYING.LIB
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/COPYING.LIB
+END
+scanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/scanner.h
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/Makefile.in
+END
+scanner.l
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/scanner.l
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/AUTHORS
+END
+libconfig.sln
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig.sln
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/depcomp
+END
+libconfig++.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/libconfig++.pc.in
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/compile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/README
+END
+grammar.y
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/grammar.y
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/ltmain.sh
+END

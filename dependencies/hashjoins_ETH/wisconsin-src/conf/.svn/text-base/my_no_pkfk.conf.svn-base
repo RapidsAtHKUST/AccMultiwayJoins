@@ -1,0 +1,75 @@
+# vi:ts=2
+
+path:	"DATA_DIR_REPLACE";
+bucksize:	1048576 ;
+
+partitioner:
+{
+	build:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	1;
+	};
+
+	probe:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	1;
+	};
+
+	hash:
+	{
+		fn:				"modulo";
+		range:		[1,16777216];
+		buckets:	8192 ;
+	};
+};
+
+build:
+{
+	file: 	"R_TABLE_REPLACE";
+	schema: ("KEYTYPE_REPLACE", "KEYTYPE_REPLACE");
+	jattr:	1;
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: R_TABLE_SIZE_REPLACE;
+	alphabet-size: R_ALPHABET_SIZE_REPLACE;
+	zipf-param: R_ZIPF_PARAM_REPLACE;
+	seed: 12345;
+};
+
+probe:
+{
+	file:	"S_TABLE_REPLACE";
+	schema:	("KEYTYPE_REPLACE", "KEYTYPE_REPLACE");
+	jattr:	1;
+	select:	(2);
+	#it's possible to generate instead of loading
+	generate: true;
+	relation-size: S_TABLE_SIZE_REPLACE;
+	alphabet-size: S_ALPHABET_SIZE_REPLACE;
+	zipf-param: S_ZIPF_PARAM_REPLACE;
+	seed: 54321;
+};
+
+output:	"my_no_out.tbl";
+
+hash:
+{
+	fn:		"modulo";
+	range:		[1,RANGE_REPLACE];
+	buckets:	BUCKETS_REPLACE;
+};
+
+algorithm:
+{
+	copydata: "yes";
+	partitionbuild:	"no";
+	buildpagesize:  32;
+	partitionprobe:	"no";
+};
+
+threads:	NUM_THREADS_REPLACE;

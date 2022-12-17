@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/Makefile.in
+END
+libconfig.texi
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/libconfig.texi
+END
+LGPL.texi
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/LGPL.texi
+END
+libconfig.info
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/libconfig.info
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/Makefile.am
+END
+texinfo.tex
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/doc/texinfo.tex
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/datagen
+END
+genbuild.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/datagen/genbuild.py
+END
+generate.sh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/datagen/generate.sh
+END
+genprobe.py
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/datagen/genprobe.py
+END

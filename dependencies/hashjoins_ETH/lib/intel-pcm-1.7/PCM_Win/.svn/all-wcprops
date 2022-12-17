@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/ReadMe.txt
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/stdafx.h
+END
+windriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/windriver.h
+END
+pcm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/pcm.cpp
+END
+pcm.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/PCM_Win/pcm.vcproj
+END

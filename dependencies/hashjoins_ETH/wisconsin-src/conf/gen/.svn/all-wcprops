@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen
+END
+template.radixsteal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen/template.radixsteal.m4
+END
+template.m4
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen/template.m4
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen/clean.sh
+END
+template.radix.m4
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen/template.radix.m4
+END
+gen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/gen/gen.sh
+END

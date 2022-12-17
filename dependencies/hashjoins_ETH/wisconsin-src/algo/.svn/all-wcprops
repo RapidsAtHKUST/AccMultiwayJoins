@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo
+END
+algo.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/algo.h
+END
+probe.inl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/probe.inl
+END
+nl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/nl.cpp
+END
+base.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/base.cpp
+END
+hashtable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/hashtable.cpp
+END
+hashbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/hashbase.cpp
+END
+build.inl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/build.inl
+END
+hashtable.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/hashtable.h
+END
+storage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/storage.cpp
+END
+flatmem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/algo/flatmem.cpp
+END

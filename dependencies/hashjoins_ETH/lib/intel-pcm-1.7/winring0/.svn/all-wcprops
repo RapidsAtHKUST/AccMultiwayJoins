@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0
+END
+OlsApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/OlsApi.h
+END
+OlsApiInitDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/OlsApiInitDef.h
+END
+OlsApiInit.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/OlsApiInit.h
+END
+OlsApiInitExt.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/OlsApiInitExt.h
+END
+OlsDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/OlsDef.h
+END
+COPYRIGHT.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/winring0/COPYRIGHT.txt
+END

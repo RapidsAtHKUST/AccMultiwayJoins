@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/Makefile.am
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/libconfig-1.2/samples/Makefile.in
+END

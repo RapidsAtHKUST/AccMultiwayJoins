@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf
+END
+002048_radix1.conf
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/002048_radix1.conf
+END
+my_no_u.conf
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/my_no_u.conf
+END
+000064_independent.conf
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/000064_independent.conf
+END
+my_16_256zipf1_25.conf
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/my_16_256zipf1_25.conf
+END
+002048_parallel.conf
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/002048_parallel.conf
+END
+my_2048_radix1.conf
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/my_2048_radix1.conf
+END
+000001_no.conf
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/000001_no.conf
+END
+my_no_pkfk.conf
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/my_no_pkfk.conf
+END
+002048_radix1steal.conf
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/002048_radix1steal.conf
+END
+my_16_256_no.conf
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/wisconsin-src/conf/my_16_256_no.conf
+END

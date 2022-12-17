@@ -1,0 +1,66 @@
+# vi:ts=2
+
+path:	"../parallel-joins/data/";
+bucksize:	1048576 ;
+
+partitioner:
+{
+	build:
+	{
+		algorithm:	"radix";
+		pagesize:		131072;
+		attribute:	1;
+		passes:			1;
+	};
+
+	probe:
+	{
+		algorithm:	"radix";
+		pagesize:		131072;
+		attribute:	1;
+		passes:			1;
+	};
+
+	hash:
+	{
+		fn:				"modulo";
+		range:		[1,134217728];
+		buckets:	8192;
+		skipbits:	13;
+	};
+};
+
+build:
+{
+	file: 	"R_128M_PK.tbl";
+	schema: ("int", "int");
+	jattr:	1;
+	select:	(2);
+};
+
+probe:
+{
+	file:	"S_128M_FK.tbl";
+	schema:	("int", "int");
+	jattr:	1;
+	select:	(2);
+};
+
+output:	"test.tbl";
+
+hash:
+{
+	fn:	"modulo";
+	range:		[1,134217728];
+	buckets:	67108864;
+};
+
+algorithm:
+{
+	copydata:	"yes";
+	partitionbuild:	"yes";
+	buildpagesize:  32;
+	partitionprobe:	"yes";
+};
+
+threads:		8;

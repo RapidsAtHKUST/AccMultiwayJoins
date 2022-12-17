@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/Makefile
+END
+msr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/msr.cpp
+END
+msrtest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/msrtest.cpp
+END
+cpuasynchcounter.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/cpuasynchcounter.h
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/Doxyfile
+END
+readmem.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/readmem.sh
+END
+realtime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/realtime.cpp
+END
+pcmdaemon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/pcmdaemon.cpp
+END
+msr.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/msr.h
+END
+KSysGuard HOWTO.docx
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/KSysGuard%20HOWTO.docx
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/types.h
+END
+cpucounterstest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/cpucounterstest.cpp
+END
+cpucounters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/cpucounters.cpp
+END
+readmem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/readmem.cpp
+END
+pci.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/pci.cpp
+END
+memoptest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/memoptest.cpp
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/license.txt
+END
+cpucounters.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/cpucounters.h
+END
+pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/pci.h
+END
+cpusensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/cpusensor.cpp
+END
+WINDOWS_HOWTO.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/WINDOWS_HOWTO.rtf
+END
+mytest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/systems/avalanche/!svn/ver/4547/branches/multicore-hashjoins-numa-awareness/lib/intel-pcm-1.7/mytest.cpp
+END

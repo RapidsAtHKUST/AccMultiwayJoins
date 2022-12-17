@@ -1,0 +1,63 @@
+# vi:ts=2
+
+path:	"/pub/scratch/bcagri/data/";
+bucksize:	1048576 ;
+
+partitioner:
+{
+	build:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	1;
+	};
+
+	probe:
+	{
+		algorithm:	"no";
+		pagesize:		1048576;
+		attribute:	2;
+	};
+
+	hash:
+	{
+		fn:				"modulo";
+		range:		[1,16777216];
+		buckets:	8192 ;
+	};
+};
+
+build:
+{
+	file: 	"R_128M_PK.tbl";
+	schema: ("long", "long");
+	jattr:	1;
+	select:	(2);
+};
+
+probe:
+{
+	file:	"S_128Mi_PK.tbl";
+	schema:	("long", "long");
+	jattr:	1;
+	select:	(2);
+};
+
+output:	"test.tbl";
+
+hash:
+{
+	fn:				"modulo";
+	range:		[1,134217728];
+	buckets:	67108864;
+};
+
+algorithm:
+{
+	copydata:				"yes";
+	partitionbuild:	"no";
+	buildpagesize:  32;
+	partitionprobe:	"no";
+};
+
+threads:		NUM_THREADS_REPLACE;
